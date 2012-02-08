@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>${blog.title} - ${post.date}</title>
+</head>
+
+<body>
+	<div id="post">
+		<p id="post-url"><a href="${post.post_url}">Post ${post.id}</a></p>
+		<p id="post-date">${post.date}</p>
+		<div id="photos">
+			<% for(photo in post.photos) { %>
+				<div class="photo">
+					<img src="${photo.original_size.url}" />
+					<div class="photo-caption">${photo.caption}</div>
+				</div>
+			<% } %>
+		</div>
+	</div>
+	<div id="post-caption">${post.caption}</div>
+</body>
+</html>
