@@ -9,3 +9,5 @@ Ray Myers (Cadrlife, LLC)
 Rachel Lara Davis (Mizzou Prime Lab)
 
 AT YOUR OPTION
+
+Otherwise, MIT License applies.
